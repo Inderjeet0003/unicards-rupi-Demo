@@ -4,7 +4,7 @@ import styles from "../styles/Benefits.module.css";
 
 export default function Benefits(props) {
   const { text, img, width, height } = props;
-  const textArr = text.split("|");
+  const textArr = text.split(" | ");
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
